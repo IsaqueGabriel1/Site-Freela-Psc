@@ -21,7 +21,7 @@
 
 #container{
   height: 75vh !important;
-  background: black;
+  background: rgb(141, 141, 141);
 }
 
 #textoInicial{
@@ -52,6 +52,6 @@
 @media only screen and (max-width: 400px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 15px;
+    font-size: 14px;
   }
 }

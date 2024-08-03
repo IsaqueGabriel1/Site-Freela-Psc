@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+}
+
+.col-12{
+   background: rgb(198, 198, 255);
+    height: 75vh !important ;
+    align-content: center;
+}
+
+#img{
+  background: red;
+  height: 200px;
+}
+
+#container{
+  height: 75vh !important;
+  background: black;
+}
+
+#textoInicial{
+  padding: 20px;
+  margin-top: 12%;
+  z-index: 2;
+}
+#textoInicial p{
+  padding: 10px;
+}
+
+#inicio{
+  position: absolute;
+  background: url("./imagem-inicio.jpg");
+  background-size: cover ;
+  width: 100%;
+  height: 75vh !important;
+  z-index: 1;
+}
+
+#nav {
+  background: rgb(240, 201, 201);
+}
+#textoInicial{
+
+}

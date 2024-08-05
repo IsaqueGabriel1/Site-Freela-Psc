@@ -67,7 +67,10 @@
 @media only screen and (max-width: 370px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 0.87rem;
+    font-size: 0.9rem;
+  }
+  *{
+    font-size: 15px;
   }
 }
 

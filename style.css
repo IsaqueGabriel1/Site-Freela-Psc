@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /*Primeira sessão*/
@@ -16,7 +16,7 @@
 
 #textoInicial{
   padding: 20px;
-  margin-top: 12%;
+  margin-top: 8%;
   z-index: 2;
 }
 #textoInicial p{
@@ -43,27 +43,40 @@
 @media only screen and (max-width: 600px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 530px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 1rem;
+    font-size: 0.98rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #textoInicial p{
+    padding: 7px;
+    font-size: 0.87rem;
+  }
+  *{
+    font-size: 17px;
   }
 }
 
 @media only screen and (max-width: 370px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 1rem;
+    font-size: 0.87rem;
   }
 }
 
 @media only screen and (max-width: 350px) {
   #textoInicial p{
-    font-size: 0.94rem;
+    font-size: 1rem;
+  }
+  *{
+    font-size: 14px;
   }
 }
 

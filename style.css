@@ -6,22 +6,12 @@
   box-sizing: border-box;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
+  font-size: 14px;
 }
 
-.col-12{
-   background: rgb(198, 198, 255);
-    height: 75vh !important ;
-    align-content: center;
-}
-
-#img{
-  background: red;
-  height: 200px;
-}
-
+/*Primeira sessão*/
 #container{
   height: 75vh !important;
-  background: rgb(141, 141, 141);
 }
 
 #textoInicial{
@@ -49,9 +39,46 @@
   background: rgb(240, 201, 201);
 }
 
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 600px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 14px;
+    font-size: 1.1rem;
   }
+}
+
+@media only screen and (max-width: 430px) {
+  #textoInicial p{
+    padding: 7px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  #textoInicial p{
+    padding: 4px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #textoInicial p{
+    font-size: 0.94rem;
+  }
+}
+
+/*Segunda sessão*/
+#segundaSessao{
+  background: red;
+  height: 75vh !important;
+}
+
+#img{
+  background: rgb(133, 194, 185);
+  height: 75vh !important;
+}
+
+#apresentacaoText{
+  background: rgb(133, 150, 194);
+  height: 75vh !important;
 }

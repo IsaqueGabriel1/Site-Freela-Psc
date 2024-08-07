@@ -84,17 +84,33 @@
 }
 
 /*Segunda sessão*/
-#segundaSessao{
-  background: red;
-  height: 75vh !important;
-}
 
 #img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgb(133, 194, 185);
   height: 75vh !important;
+  
 }
 
-#apresentacaoText{
-  background: rgb(133, 150, 194);
-  height: 75vh !important;
+
+#box{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  background: rgb(240, 201, 201);
+  height: 60vh !important;
 }
+
+
+
+#conteudo img{
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  transform: scale(0.7);
+}
+

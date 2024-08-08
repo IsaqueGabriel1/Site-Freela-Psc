@@ -40,24 +40,124 @@
 }
 
 
+/*Segunda sessão*/
+
+
+
+
+#box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f0c9c9;
+  height: 47vh !important;
+}
+
+#box img{
+  border-radius: 50%;
+  width: 15%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#terceiraSessao{
+  background: #f0c9c9;
+  height: 47vh !important;
+}
+
+.cards{
+  background: #004959;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  padding-top: 10px;
+  color: #F0C9C9;
+}
+
+.cor3s{
+  background-color:#F0C9C9;
+}
+
+i{
+  transition: 1s;
+}
+i:hover{
+  color: #004959;
+  transition: 1s;
+}
+
+#cards{
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  #box img{
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #textoInicial p{
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+  #box img{
+    width: 30%;
+  }
+  #cards p{
+    font-size: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #textoInicial p{
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+  #box img{
+    width: 30%;
+  }
+  #cards p{
+    font-size: 0.8rem;
+  }
+  #cards h3{
+    font-size: 0.9rem;
+  }
+}
+
+
 @media only screen and (max-width: 600px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
+  #box img{
+    width: 38%;
+  }
+
 }
 
 @media only screen and (max-width: 530px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 0.98rem;
+    font-size: 1rem;
+  }
+  #box img{
+    width: 45%;
+  }
+  .cards{
+    height: 350px;
   }
 }
 
 @media only screen and (max-width: 460px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 0.87rem;
+    font-size: 0.8rem;
   }
   *{
     font-size: 17px;
@@ -67,49 +167,22 @@
 @media only screen and (max-width: 370px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   *{
     font-size: 15px;
+  }
+  #cards{
+    margin-top: 5px;
   }
 }
 
 @media only screen and (max-width: 350px) {
   #textoInicial p{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   *{
     font-size: 14px;
   }
 }
 
-/*Segunda sessão*/
-
-#img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgb(133, 194, 185);
-  height: 75vh !important;
-  
-}
-
-
-#box{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  text-align: center;
-  background: rgb(240, 201, 201);
-  height: 60vh !important;
-}
-
-
-
-#conteudo img{
-  display: flex;
-  flex-direction: column;
-  border-radius: 50%;
-  transform: scale(0.7);
-}

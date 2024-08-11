@@ -167,13 +167,16 @@ i:hover{
   #textoInicial{
     margin-top: 25%;
   }
+  #box{
+    height: 35vh !important;
+  }
 }
 
 
 @media only screen and (max-width: 600px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
   #box img{
     width: 38%;
@@ -197,12 +200,15 @@ i:hover{
   #textoInicial{
     margin-top: 25%;
   }
+  #box{
+    height: 35vh !important;
+  }
 }
 
 @media only screen and (max-width: 560px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   #box img{
     width: 45%;
@@ -221,30 +227,30 @@ i:hover{
     margin-bottom: 10px;
   }
   #box{
-    height: 44vh !important;
+    height: 38vh !important;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 475px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   *{
     font-size: 17px;
   }
   #textoInicial{
-    margin-top: 24%;
+    margin-top: 40%;
   }
   .cards{
     height: 400px;
   }
   #box{
-    height: 35vh !important;
+    height: 33vh !important;
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 375px) {
   #textoInicial p{
     padding: 4px;
     font-size: 1.2rem;
@@ -270,6 +276,9 @@ i:hover{
   }
   #textoInicial{
     margin-top: 25%;
+  }
+  #box{
+    height: 30vh !important;
   }
 }
 
@@ -318,7 +327,7 @@ i:hover{
 @media only screen and (max-width: 290px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   *{
     font-size: 15px;

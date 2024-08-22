@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Montserrat:wght@100..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-family: "Moderustic", sans-serif;
   font-optical-sizing: auto;
   font-size: 18px;
 }
@@ -114,6 +114,10 @@ i:hover{
   padding: 50px;
 }
 
+.caixaTexto h1{
+  color:white
+}
+
 #boxServicos{
   animation: teste 3s cover;
 }
@@ -122,9 +126,22 @@ i:hover{
   animation: appear 1ms ease-in-out;
   animation-timeline: view();
   animation-range:cover 0% cover 28% ;
-  transition: 4s;
 
 }
+
+.terapia-casal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #F0C9C9;
+}
+
+#imgCasal{
+  width: 100%;
+}
+
+
 
 @keyframes appear{
   from{
@@ -171,6 +188,15 @@ i:hover{
   #textoInicial{
     margin-top: 24%;
   }
+  .textoCasal h1{
+    font-size: 1rem;
+  }
+  .textoCasal h3{
+    font-size: 0.9rem;
+  }
+  .textoCasal h4{
+    font-size: 0.9rem;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -193,6 +219,7 @@ i:hover{
   #box{
     height: 35vh !important;
   }
+
 }
 
 
@@ -236,6 +263,16 @@ i:hover{
     font-size: 0.9rem;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .p-0{
+    display: none;
+  }
+  #textoCasal{
+    margin-top: 20px;
+  }
+}
+
     
 @media only screen and (max-width: 560px) {
   #textoInicial p{

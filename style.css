@@ -165,12 +165,37 @@ i:hover{
  }
 }
 
+@media only screen and (max-width: 1024px){
+  #cards h3{
+    font-size: 1rem;
+  }
+  #cards p{
+    font-size: 0.7rem;
+  }
+  #cards{
+    margin: 3px;
+    height: 340px; 
+  }
+}
+
 @media only screen and (max-width: 980px) {
   #box img{
     width: 30%;
   }
   #textoInicial{
     margin-top: 20%;
+  }
+  .textoCasal h1{
+    font-size: 1rem;
+  }
+  .textoCasal h3{
+    font-size: 0.9rem;
+  }
+  .textoCasal h4{
+    font-size: 0.9rem;
+  }
+  #terceiraSessao{
+    padding-top: 80px;
   }
 }
 
@@ -197,9 +222,25 @@ i:hover{
   .textoCasal h4{
     font-size: 0.9rem;
   }
+
+  #cards{
+    height: 230px;
+    margin:4px;
+    
+  }
+  #cards h3{
+    font-size: 1.1rem;
+  }
+  #cards p{
+    font-size: 0.8rem;
+  }
+  #terceiraSessao{
+    padding-top: 80px;
+  }
 }
 
-@media only screen and (max-width: 750px) {
+
+@media only screen and (max-width: 768px) {
   #textoInicial p{
     padding: 8px;
     font-size: 1rem;
@@ -214,16 +255,55 @@ i:hover{
     font-size: 0.9rem;
   }
   #textoInicial{
-    margin-top: 25%;
+    margin-top: 15%;
   }
   #box{
     height: 35vh !important;
   }
-
+  #quartaSessao .caixaTexto{
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+  }
+  #quartaSessao .caixaTexto h1{
+    font-size: 1.1rem;
+  }
+  #quartaSessao .caixaTexto h3{
+    font-size: 1.1rem;
+  }
+  #boxServicos p{
+    font-size: 0.9rem;
+  }
+  #cards h3{
+    font-size: 1.1rem;
+  }
+  #cards p{
+    font-size: 0.6rem;
+  }
+  .cor3s{
+    padding-top: 120px;
+  }
+  #terceiraSessao{
+    padding-top: 20px;
+  }
 }
 
+@media only screen and (max-width: 680px) {
+  #textoCasal{
+    margin-top: 20px;
+  }
+  .textoCasal h1{
+    font-size: 1rem;
+  }
+  .textoCasal h3{
+    font-size: 0.8rem;
+  }
+  .textoCasal h4{
+    font-size: 0.7rem;
+  }
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
   #textoInicial p{
     padding: 7px;
     font-size: 1rem;
@@ -238,11 +318,11 @@ i:hover{
     margin-top: 30%;
   }
   .cards{
-    height: 300px;
+    height: 290px !important;
     margin-bottom: 10px;
   }
   #cards p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #cards h3{
     font-size: 1rem;
@@ -262,19 +342,17 @@ i:hover{
   #boxServicos p{
     font-size: 0.9rem;
   }
+  #quartaSessao .caixaTexto{
+    text-align: center;
+    padding: 15px;
+  }
+  
 }
 
-@media only screen and (max-width: 680px) {
-  .p-0{
-    display: none;
-  }
-  #textoCasal{
-    margin-top: 20px;
-  }
-}
+
 
     
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 550px) {
   #textoInicial p{
     padding: 7px;
     font-size: 1rem;
@@ -298,9 +376,15 @@ i:hover{
   #box{
     height: 54vh !important;
   }
+  .p-0{
+    display: none;
+  }
+  #terceiraSessao{
+    padding-top: 0px;
+  }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 425px) {
   #textoInicial p{
     padding: 7px;
     font-size: 0.9rem;
@@ -309,29 +393,32 @@ i:hover{
     font-size: 17px;
   }
   #textoInicial{
-    margin-top: 25%;
+    margin-top: 12%;
   }
-  .cards{
-    height: 400px;
+  .cards p{
+    font-size: 0.1rem;
   }
   #box{
     height: 45vh !important;
+  }
+  #cards h3{
+    font-size: 1.1rem;
+  }
+  #cards p{
+    font-size: 0.8rem;
+  }
+  .cor3s{
+    padding-top: 35px;
   }
 }
 
 @media only screen and (max-width: 375px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 1rem;
-  }
-  *{
-    font-size: 15px;
+    font-size: 0.8rem;
   }
   #cards{
     margin-top: 5px;
-  }
-  #textoInicial{
-    margin-top: 17%;
   }
   .cards{
     height: 300px;
@@ -349,6 +436,16 @@ i:hover{
   #box{
     height: 44vh !important;
   }
+  #quartaSessao .caixaTexto{
+    padding: 25px;
+  }
+  #cards h3{
+    font-size: 1.1rem;
+  }
+  #cards p{
+    font-size: 0.7rem;
+  }
+  
 }
 
 @media only screen and (max-width: 350px) {
@@ -371,16 +468,13 @@ i:hover{
 @media only screen and (max-width: 320px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   *{
     font-size: 15px;
   }
   #cards{
     margin-top: 5px;
-  }
-  #textoInicial{
-    margin-top: 15%;
   }
   #cards p{
     font-size: 0.8rem;

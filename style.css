@@ -137,11 +137,52 @@ i:hover{
   background: #F0C9C9;
 }
 
-#imgCasal{
-  width: 100%;
+.terapia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffc16f;
+  height: 50vh;
+  color: #121213;
 }
 
+#imgCasal{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./imagem-atendimento.jpg");
+  transition: 0.5s;
+  filter: blur(2px);
+  transform: scale(-4px);
+}
 
+.avaliacao{
+  overflow: hidden;
+}
+
+#imgCasal:hover{
+  filter: blur(0px);
+  transform: scale(6px);
+  transition: 0.5s;
+}
+
+#carouselExampleIndicators{
+  height: 45vh;
+    display: flex;
+    align-items: center;
+}
+
+#carousel h4{
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+#sextaSessao{
+  background: rgb(70,4,4);
+  color: #F0C9C9;
+}
 
 @keyframes appear{
   from{
@@ -237,6 +278,7 @@ i:hover{
   #terceiraSessao{
     padding-top: 80px;
   }
+
 }
 
 
@@ -286,6 +328,7 @@ i:hover{
   #terceiraSessao{
     padding-top: 20px;
   }
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -301,6 +344,7 @@ i:hover{
   .textoCasal h4{
     font-size: 0.7rem;
   }
+
 }
 
 @media only screen and (max-width: 630px) {
@@ -346,7 +390,7 @@ i:hover{
     text-align: center;
     padding: 15px;
   }
-  
+
 }
 
 
@@ -382,6 +426,7 @@ i:hover{
   #terceiraSessao{
     padding-top: 0px;
   }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -409,6 +454,9 @@ i:hover{
   }
   .cor3s{
     padding-top: 35px;
+  }
+  .terapia{
+    height: 35%;
   }
 }
 
@@ -445,7 +493,7 @@ i:hover{
   #cards p{
     font-size: 0.7rem;
   }
-  
+
 }
 
 @media only screen and (max-width: 350px) {
@@ -462,7 +510,7 @@ i:hover{
   #textoInicial{
     margin-top: 35%;
   }
-  
+ 
 }
 
 @media only screen and (max-width: 320px) {
@@ -485,6 +533,20 @@ i:hover{
   #textoInicial{
     margin-top: 35%;
   }
+  #boxServicos h1{
+    font-size: 1.2rem;
+  }
+  #quartaSessao .caixaTexto{
+    padding: 0px;
+  }
+  #boxServicos .caixaTexto h3{
+    font-size: 0.9rem;
+  }
+  #boxServicos p{
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+ 
 }
 
 @media only screen and (max-width: 290px) {
@@ -514,6 +576,7 @@ i:hover{
   #textoInicial{
     margin-top: 35%;
   }
+  
 }
 
 @media only screen and (max-width: 260px) {

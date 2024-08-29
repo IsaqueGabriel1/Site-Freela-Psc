@@ -6,6 +6,7 @@
   font-family: "Moderustic", sans-serif;
   font-optical-sizing: auto;
   font-size: 18px;
+  cursor: default;
 }
 
 
@@ -70,7 +71,7 @@
 }
 
 .cards{
-  background: #004959;
+  background: #731425;
   border-radius: 5px;
   border: 1px solid black;
   height: 400px;
@@ -93,9 +94,9 @@
 i{
   transition: 1s;
 }
-i:hover{
-  color: #004959;
-  transition: 1s;
+span i:hover{
+  font-size: 1.2rem;
+  cursor: default;
 }
 
 #cards{
@@ -106,7 +107,7 @@ i:hover{
 
 #quartaSessao{
   padding: 50px;
- 
+  background: #D99B96;
 }
 
 #quartaSessao .caixaTexto{
@@ -114,9 +115,22 @@ i:hover{
   padding: 50px;
 }
 
-.caixaTexto h1{
-  color:white
+#boxServicos h1{
+  color: #731425;
+  font-weight: 800;
 }
+
+#boxServicos h3{
+  color: #731425;
+  font-weight: 700;
+}
+#boxServicos p{
+  color: #731425;
+  text-decoration: dashed;
+  font-weight: 600;
+}
+
+
 
 #boxServicos{
   animation: teste 3s cover;
@@ -135,6 +149,7 @@ i:hover{
   align-items: center;
   flex-direction: column;
   background: #F0C9C9;
+  color: #731425;
 }
 
 .terapia{
@@ -142,9 +157,9 @@ i:hover{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #ffc16f;
+  background: #731425;
   height: 50vh;
-  color: #121213;
+  color: #F0C9C9;
 }
 
 #imgCasal{
@@ -180,18 +195,63 @@ i:hover{
 }
 
 #sextaSessao{
-  background: rgb(70,4,4);
+  background: #460404;
   color: #F0C9C9;
 }
 
+#textoTerapiaCasal{
+  animation: appear2 1ms ease-in-out;
+  animation-timeline: view();
+  animation-range:cover 0% cover 28% ;
+}
+
+#avaliacaoPsc{
+  animation: appear3 1ms ease-in-out;
+  animation-timeline: view();
+  animation-range:cover 0% cover 28% ;
+}
+
+#ultima-sessao{
+  background: #ffe0dc;
+  color: #460404;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 @keyframes appear{
+  from{
+    opacity: 0;
+    translate: 100vw 0;
+  }
+  to{
+    opacity: 1;
+    translate: 0vh 0;
+  }
+}
+
+@keyframes appear2{
   from{
     opacity: 0;
     translate: -100vw 0;
   }
   to{
     opacity: 1;
-    translate: 0 0;
+    translate: 0vh 0;
+  }
+}
+
+@keyframes appear3{
+  from{
+    opacity: 0;
+    translate: 100vw 0;
+  }
+  to{
+    opacity: 1;
+    translate: 0vh 0;
   }
 }
 
@@ -458,6 +518,14 @@ i:hover{
   .terapia{
     height: 35%;
   }
+  #ultima-sessao{
+    height: 30vh;
+  }
+
+  #ultima-sessao h4{
+    font-size: 0.7rem;
+    padding: 0vh;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -493,6 +561,14 @@ i:hover{
   #cards p{
     font-size: 0.7rem;
   }
+  #ultima-sessao{
+    height: 30vh;
+  }
+
+  #ultima-sessao h4{
+    font-size: 0.7rem;
+    padding: 0vh;
+  }
 
 }
 
@@ -509,6 +585,14 @@ i:hover{
   }
   #textoInicial{
     margin-top: 35%;
+  }
+  #ultima-sessao{
+    height: 30vh;
+  }
+
+  #ultima-sessao h4{
+    font-size: 0.7rem;
+    padding: 0vh;
   }
  
 }
@@ -546,7 +630,14 @@ i:hover{
     margin-top: 20px;
     font-size: 0.8rem;
   }
- 
+  #ultima-sessao{
+    height: 30vh;
+  }
+
+  #ultima-sessao h4{
+    font-size: 0.7rem;
+    padding: 0vh;
+  }
 }
 
 @media only screen and (max-width: 290px) {
@@ -576,7 +667,14 @@ i:hover{
   #textoInicial{
     margin-top: 35%;
   }
-  
+  #ultima-sessao{
+    height: 30vh;
+  }
+
+  #ultima-sessao h4{
+    font-size: 0.7rem;
+    padding: 0vh;
+  }
 }
 
 @media only screen and (max-width: 260px) {
@@ -605,6 +703,14 @@ i:hover{
   }
   #textoInicial{
     margin-top: 25%;
+  }
+  #ultima-sessao{
+    height: 30vh;
+  }
+
+  #ultima-sessao h4{
+    font-size: 0.7rem;
+    padding: 0vh;
   }
 }
 
@@ -640,6 +746,14 @@ i:hover{
   }
   #box{
     height: 40vh !important;
+  }
+  #ultima-sessao{
+    height: 30vh;
+  }
+
+  #ultima-sessao h4{
+    font-size: 0.7rem;
+    padding: 0vh;
   }
 }
 

@@ -519,7 +519,7 @@ svg:hover{
 @media only screen and (max-width: 550px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #textoInicial h1{
     font-size: 0.9rem;
@@ -531,7 +531,7 @@ svg:hover{
     height: 350px;
   }
   #cards p{
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   #textoInicial{
     margin-top: 10%;
@@ -549,13 +549,15 @@ svg:hover{
   #terceiraSessao{
     padding-top: 0px;
   }
-
+  .cor3s{
+    padding-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
   #textoInicial p{
     padding: 7px;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
   #textoInicial h1{
     font-size: 1rem;
@@ -564,7 +566,7 @@ svg:hover{
     font-size: 17px;
   }
   #textoInicial{
-    margin-top: 12%;
+    margin-top: 15%;
   }
   .cards p{
     font-size: 0.1rem;
@@ -589,12 +591,15 @@ svg:hover{
     font-size: 0.7rem;
     padding: 0vh;
   }
+  #nav a{
+    font-size: 0.85rem;
+   }
 }
 
 @media only screen and (max-width: 375px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   #cards{
     margin-top: 5px;
@@ -667,7 +672,7 @@ svg:hover{
 @media only screen and (max-width: 320px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
   *{
     font-size: 15px;
@@ -716,7 +721,7 @@ svg:hover{
 @media only screen and (max-width: 290px) {
   #textoInicial p{
     padding: 4px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   *{
     font-size: 15px;
@@ -735,7 +740,7 @@ svg:hover{
     font-size: 1rem;
   }
   #textoInicial{
-    margin-top: 35%;
+    margin-top: 25%;
   }
   #ultima-sessao{
     height: 30vh;
@@ -769,7 +774,7 @@ svg:hover{
     margin-top: 2%;
   }
   #cards p{
-    font-size: 0.76rem;
+    font-size: 0.7rem;
   }
   #cards h3{
     font-size: 1rem;

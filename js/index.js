@@ -12,3 +12,7 @@ function openInNewTab(urlInstagram){
 svgInsta.addEventListener('click', () => {
     openInNewTab(urlInstagram)
 })
+
+svgFacebook.addEventListener('click', () => {
+    openInNewTab(urlFacebook)
+})

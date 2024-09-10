@@ -1,0 +1,650 @@
+
+@media only screen and (max-width: 1024px){
+    #cards h3{
+      font-size: 1rem;
+    }
+    #cards p{
+      font-size: 0.7rem;
+    }
+    #cards{
+      margin: 3px;
+      height: 340px; 
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    #box img{
+      width: 30%;
+    }
+    #textoInicial{
+      margin-top: 20%;
+    }
+    .textoCasal h1{
+      font-size: 1rem;
+    }
+    .textoCasal h3{
+      font-size: 0.9rem;
+    }
+    .textoCasal h4{
+      font-size: 0.9rem;
+    }
+    #terceiraSessao{
+      padding-top: 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #textoInicial p{
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+    #box img{
+      width: 30%;
+    }
+    #cards p{
+      font-size: 0.9rem;
+    }
+    #textoInicial{
+      margin-top: 24%;
+    }
+    .textoCasal h1{
+      font-size: 1rem;
+    }
+    .textoCasal h3{
+      font-size: 0.9rem;
+    }
+    .textoCasal h4{
+      font-size: 0.9rem;
+    }
+  
+    #cards{
+      height: 230px;
+      margin:4px;
+      
+    }
+    #cards h3{
+      font-size: 1.1rem;
+    }
+    #cards p{
+      font-size: 0.8rem;
+    }
+    #terceiraSessao{
+      padding-top: 80px;
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    #textoInicial p{
+      padding: 8px;
+      font-size: 0.8rem;
+    }
+    #textoInicial h1{
+      font-size: 1.3rem;
+    }
+    #box img{
+      width: 30%;
+    }
+    #cards p{
+      font-size: 1.1rem;
+    }
+    #cards h3{
+      font-size: 0.9rem;
+    }
+    #textoInicial{
+      margin-top: 15%;
+    }
+    #box{
+      height: 35vh !important;
+    }
+    #quartaSessao{
+      padding: 10px;
+    }
+    #quartaSessao .caixaTexto{
+      text-align: center;
+      padding: 10px;
+      font-size: 10px;
+    }
+    #quartaSessao .caixaTexto h1{
+      font-size: 1.1rem;
+    }
+    #quartaSessao .caixaTexto h3{
+      font-size: 1.1rem;
+    }
+    #boxServicos p{
+      font-size: 0.9rem;
+    }
+    #cards h3{
+      font-size: 1.1rem;
+    }
+    #cards p{
+      font-size: 0.75rem;
+    }
+    .cor3s{
+      padding-top: 120px;
+    }
+    #terceiraSessao{
+      padding-top: 20px;
+    }
+    #cont-links span{
+      font-size: 0.9rem;
+    }
+    #cont-links2 span{
+      font-size: 0.9rem;
+    }
+    svg{
+      width: 20px;
+      height: 20px;
+    }
+    #ultima-sessao h4{
+      font-size: 0.9rem;
+      padding: 0vh;
+    }
+    #ultima-sessao h1{
+      font-size: 1.6rem;
+      padding: 0vh;
+    }
+    .ultima-sessao{
+      height: 60vh;
+    }
+    #avaliacaoPsc{
+      height: 60vh;
+    }
+    #textoTerapiaCasal{
+      height: 60vh;
+    }
+    #textoCasal{
+      h1{
+        
+        font-weight: 900
+      };
+      h3{
+       
+        font-weight: 700
+      };
+      h4{
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 680px) {
+    #textoCasal{
+      margin-top: 20px;
+    }
+    .textoCasal h1{
+      font-size: 1.2rem;
+    }
+    .textoCasal h3{
+      font-size: 1rem;
+    }
+    .textoCasal h4{
+      font-size: 0.9rem;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 630px) {
+    #textoInicial p{
+      padding: 7px;
+      font-size: 0.8rem;
+    }
+    #textoInicial h1{
+      font-size: 1.2rem;
+    }
+    #box img{
+      width: 38%;
+    }
+    #box{
+      height: 35vh !important;
+    }
+   
+    .cards{
+      height: 290px !important;
+      margin-bottom: 10px;
+    }
+    #cards p{
+      font-size: 0.8rem;
+    }
+    #cards h3{
+      font-size: 1rem;
+    }
+    #textoInicial{
+      margin-top: 10%;
+    }
+    #box{
+      height: 35vh !important;
+    }
+    #boxServicos h1{
+      font-size: 1.2rem;
+    }
+    #boxServicos  h3{
+      font-size: 1rem;
+    }
+    #boxServicos p{
+      font-size: 0.9rem;
+    }
+    #quartaSessao .caixaTexto{
+      text-align: center;
+      padding: 15px;
+    }
+  }
+  
+  
+  
+      
+  @media only screen and (max-width: 550px) {
+    #textoInicial p{
+      padding: 7px;
+      font-size: 0.9rem;
+    }
+    #textoInicial h1{
+      font-size: 0.9rem;
+    }
+    #box img{
+      width: 45%;
+    }
+    .cards{
+      height: 350px;
+    }
+    #cards p{
+      font-size: 0.8rem;
+    }
+    #textoInicial{
+      margin-top: 10%;
+    }
+    .cards{
+      height: 330px;
+      margin-bottom: 10px;
+    }
+    #box{
+      height: 54vh !important;
+    }
+    .p-0{
+      display: none;
+    }
+    #terceiraSessao{
+      padding-top: 0px;
+    }
+    .cor3s{
+      padding-top: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    #textoInicial p{
+      padding: 7px;
+      font-size: 0.85rem;
+    }
+    #textoInicial h1{
+      font-size: 1rem;
+    }
+    *{
+      font-size: 17px;
+    }
+    #textoInicial{
+      margin-top: 15%;
+    }
+    .cards p{
+      font-size: 0.1rem;
+    }
+    #box{
+      height: 45vh !important;
+    }
+    .cor3s{
+      padding-top:60px;
+    }
+    #cards h3{
+      font-size: 1.1rem;
+    }
+    #cards p{
+      font-size: 0.8rem;
+    }
+    .terapia{
+      height: 35%;
+    }
+    #ultima-sessao{
+      height: 30vh;
+    }
+  
+    #ultima-sessao h4{
+      font-size: 0.7rem;
+      padding: 0vh;
+    }
+    #nav a{
+      font-size: 0.85rem;
+     }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.8rem;
+    }
+    #cards{
+      margin-top: 5px;
+    }
+    .cards{
+      height: 300px;
+      margin-bottom: 10px;
+    }
+    #cards p{
+      font-size: 0.9rem;
+    }
+    #cards h3{
+      font-size: 1rem;
+    }
+    #textoInicial{
+      margin-top: 25%;
+    }
+    #box{
+      height: 44vh !important;
+    }
+    #quartaSessao .caixaTexto{
+      padding: 25px;
+    }
+    #cards h3{
+      font-size: 1.1rem;
+    }
+    #cards p{
+      font-size: 0.7rem;
+    }
+    #ultima-sessao{
+      height: 30vh;
+    }
+  
+    #ultima-sessao h4{
+      font-size: 0.7rem;
+      padding: 0vh;
+    }
+    #nav a{
+      font-size: 0.85rem;
+     }
+     #textoCasal{
+      h1{
+        
+        font-weight: 900
+      };
+      h3{
+       
+        font-weight: 700
+      };
+      h4{
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 350px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.8rem;
+    }
+    *{
+      font-size: 15px;
+    }
+    #cards{
+      margin-top: 5px;
+    }
+    #textoInicial{
+      margin-top: 20%;
+    }
+    #ultima-sessao{
+      height: 30vh;
+    }
+    #ultima-sessao h4{
+      font-size: 0.7rem;
+      padding: 0vh;
+    }
+   #nav a{
+    font-size: 1rem;
+   }
+   .cor3s{
+    padding-top:10px;
+  }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.85rem;
+    }
+    *{
+      font-size: 15px;
+    }
+    #cards{
+      margin-top: 5px;
+    }
+    #cards p{
+      font-size: 0.8rem;
+    }
+    #cards h3{
+      font-size: 1rem;
+    }
+    #textoInicial{
+      margin-top: 20%;
+    }
+    #boxServicos h1{
+      font-size: 1.2rem;
+    }
+    #quartaSessao{
+      padding: 15px;
+    }
+    #quartaSessao .caixaTexto{
+      padding: 0px;
+    }
+    #boxServicos .caixaTexto h3{
+      font-size: 0.9rem;
+    }
+    #boxServicos p{
+      margin-top: 20px;
+      font-size: 0.8rem;
+    }
+    #ultima-sessao{
+      height: 30vh;
+    }
+  
+    #ultima-sessao h4{
+      font-size: 1rem;
+      padding: 0vh;
+    }
+
+    #cont-links2{
+        span{
+            font-size: 0.8rem;
+        }
+    }
+    #nav a{
+      font-size: 0.9rem;
+     }
+  }
+  
+  @media only screen and (max-width: 290px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.8rem;
+    }
+    *{
+      font-size: 15px;
+    }
+    #textoInicial{
+      margin-top: 20%;
+    }
+  
+    #cards{
+      margin-top: 5px;
+    }
+    #cards p{
+      font-size: 0.8rem;
+    }
+    #cards h3{
+      font-size: 1rem;
+    }
+    #textoInicial{
+      margin-top: 25%;
+    }
+    #ultima-sessao{
+      height: 30vh;
+    }
+  
+    #ultima-sessao h4{
+      font-size: 0.7rem;
+      padding: 0vh;
+    }
+    #nav a{
+      font-size: 0.75rem;
+     }
+     #textoCasal{
+        h1{
+          
+          font-weight: 900
+        };
+        h3{
+         
+          font-weight: 700
+        };
+        h4{
+          font-size: 0.7rem;
+        }
+    }
+  }
+  
+  @media only screen and (max-width: 260px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.67rem;
+    }
+    *{
+      font-size: 15px;
+    }
+    #textoInicial{
+      margin-top: 40%;
+    }
+  
+    #cards{
+      margin-top: 5px;
+    }
+    #textoInicial{
+      margin-top: 2%;
+    }
+    #cards p{
+      font-size: 0.7rem;
+    }
+    #cards h3{
+      font-size: 1rem;
+    }
+    #textoInicial{
+      margin-top: 25%;
+    }
+    #ultima-sessao{
+      height: 30vh;
+    }
+  
+    #ultima-sessao h4{
+      font-size: 1rem;
+      padding: 0vh;
+    }
+    #nav a{
+      font-size: 0.7rem;
+     }
+     #textoCasal{
+        h1{
+          
+          font-weight: 900
+        };
+        h3{
+         
+          font-weight: 700
+        };
+        h4{
+          font-size: 1rem;
+        }
+    }
+     
+  }
+  
+  @media only screen and (max-width: 237px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.6rem;
+    }
+    *{
+      font-size: 15px;
+    }
+    #textoInicial{
+      margin-top: 40%;
+    }
+  
+    #cards{
+      margin-top: 5px;
+    }
+    #textoInicial{
+      margin-top: 17%;
+    }
+    #cards p{
+      font-size: 0.7rem;
+    }
+    #cards h3{
+      font-size: 1rem;
+    }
+    #textoInicial{
+      margin-top: 25%;
+    }
+    .cards{
+      height: 270px;
+    }
+    #box{
+      height: 40vh !important;
+    }
+    #ultima-sessao{
+      height: 30vh;
+    }
+  
+    #ultima-sessao h4{
+      font-size: 0.7rem;
+      padding: 0vh;
+    }
+    #nav a{
+      font-size: 0.6rem;
+     }
+  }
+  
+  @media only screen and (max-width: 217px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.6rem;
+    }
+    *{
+      font-size: 15px;
+    }
+    #textoInicial{
+      margin-top: 40%;
+    }
+  
+    #cards{
+      margin-top: 5px;
+    }
+    #textoInicial{
+      margin-top: 17%;
+    }
+    #cards p{
+      font-size: 0.6rem;
+    }
+    #cards h3{
+      font-size: 1rem;
+    }
+    #textoInicial{
+      margin-top: 25%;
+    }
+    .cards{
+      height: 220px;
+    }
+    #box{
+      height: 40vh !important;
+    }
+    #nav a{
+      font-size: 0.6rem;
+     }
+  }
+  

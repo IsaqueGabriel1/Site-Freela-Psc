@@ -5,12 +5,11 @@
   box-sizing: border-box;
   font-family: "Moderustic", sans-serif;
   font-optical-sizing: auto;
-  font-size: 18px;
   cursor: default;
   text-decoration: none;
   text-underline-offset: none;
-}
 
+}
 
 
 body { overflow-x: hidden; }
@@ -177,7 +176,6 @@ span i:hover{
   background-position: center;
   background-size: cover;
   background-image: url("../img/fotoCasal-ilustrativo.webp");
-  
   transition: 0.5s;
   filter: blur(2px);
   transform: scale(6px);
@@ -202,16 +200,13 @@ span i:hover{
    
     font-weight: 700
   };
-  h4{
-    font-size: 1.2rem;
+  p{
+    font-size: 1.4rem;
 
     a{
       text-decoration: none;
-      color: #F0C9C9;
-      cursor: pointer;
-    }
-    a:hover{
       color: #ffffff;
+      cursor: pointer;
     }
   }
 }

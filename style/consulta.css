@@ -1,6 +1,6 @@
 
 .page1{
-    background-color: brown;
+    background-color: #DFA196;
 }
 .page2{
     background-color: rgb(206, 64, 64);
@@ -23,8 +23,10 @@ section{
     left: 0;
     display: flex;
     scroll-snap-align: start;
-    align-items: center;
     justify-content: center;
     color: rgb(0, 0, 0);
     height: 100vh;
+    flex-direction: column;
+    text-align: left;
+    
 }

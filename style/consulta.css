@@ -1,6 +1,6 @@
 
 .page1{
-    background-color: #DFA196;
+    background-color: #f0cfc9b9;
 }
 .page2{
     background-color: rgb(206, 64, 64);
@@ -24,9 +24,22 @@ section{
     display: flex;
     scroll-snap-align: start;
     justify-content: center;
+    align-items: center;
     color: rgb(0, 0, 0);
     height: 100vh;
     flex-direction: column;
     text-align: left;
-    
+    color: #490612;
+}
+
+section {
+    div{
+
+        h1{
+            font-weight: 500;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
 }

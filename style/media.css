@@ -95,6 +95,11 @@
 
 
     /*Responsividade das fontes, cuidado!*/
+    #textoInicial{
+      p{
+        font-size: max(0.9rem, 1vw);
+      }
+    }
     #cards{
       h3{
         font-size: max(1.2rem, 0.2vw);
@@ -170,7 +175,15 @@
     #textoCasal{
       margin-top: 20px;
     }
-  
+    #cards{
+      h3{
+        font-size: max(1.2rem, 0.2vw);
+        
+      }
+      p{
+        font-size: max(0.9rem, 1vw);
+      }
+    }
   }
   
   @media only screen and (max-width: 630px) {
@@ -277,6 +290,15 @@
     span{
       font-size: max(1rem, 1vw);
       
+    }
+    #cards{
+      h3{
+        font-size: max(1.2rem, 0.2vw);
+        
+      }
+      p{
+        font-size: max(0.8rem, 1vw);
+      }
     }
   }
   
@@ -391,6 +413,15 @@
       }
       
     }
+    #cards{
+      h3{
+        font-size: max(1.2rem, 0.2vw);
+        
+      }
+      p{
+        font-size: max(0.75rem, 1vw);
+      }
+    }
   }
   
   @media only screen and (max-width: 290px) {
@@ -398,9 +429,12 @@
       h1{
         font-size: max(1.2rem, 0.2vw);
       }
+      h4{
+        font-size: max(1rem, 0.2vw);
+      }
       p{
         padding: 2px;
-        font-size: max(0.8rem, 1vw);
+        font-size: max(0.75rem, 1vw);
       }
     }
   
@@ -442,6 +476,15 @@
       }
       
     }
+    #cards{
+      h3{
+        font-size: max(1.2rem, 0.2vw);
+        
+      }
+      p{
+        font-size: max(0.64rem, 1vw);
+      }
+    }
   }
   
   @media only screen and (max-width: 260px) {
@@ -449,9 +492,12 @@
       h1{
         font-size: max(1.2rem, 0.2vw);
       }
+      h4{
+        font-size: max(1rem, 0.2vw);
+      }
       p{
         padding: 2px;
-        font-size: max(0.8rem, 1vw);
+        font-size: max(0.75rem, 1vw);
       }
     }
    
@@ -504,9 +550,12 @@
       h1{
         font-size: max(1.2rem, 0.2vw);
       }
+      h4{
+        font-size: max(0.8rem, 0.2vw);
+      }
       p{
         padding: 2px;
-        font-size: max(0.8rem, 1vw);
+        font-size: max(0.7rem, 1vw);
       }
     }
     #textoInicial{

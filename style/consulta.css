@@ -39,7 +39,47 @@ section {
             font-weight: 500;
         }
         p{
-            font-size: 1.5rem;
+            font-size: max(1.3em, 1vw);
         }
     }
+}
+
+
+@media only screen and (max-width: 768px){
+    .page1{
+        .col-xxl-5{
+            p{
+                font-size: max(1.2em, 1vw);
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 425px){
+    .page1{
+        .col-xxl-5{
+            p{
+                font-size: max(1em, 1vw);
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 320px){
+    section{
+        display: flex;
+        justify-content:unset;
+        
+    }
+    .page1{
+        .col-xxl-5{
+            p{
+                font-size: max(0.8em, 1vw);
+            };
+            margin-top: 10vh;
+        }
+    }
+    
 }

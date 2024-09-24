@@ -1,15 +1,15 @@
 
 .page1{
-    background-color: #f0cfc9b9;
+    background-color: #fccbb6;
 }
 .page2{
-    background-color: rgb(206, 64, 64);
+    background-color: #FFDDCE;
 }
 .page3{
-    background-color: rgb(194, 90, 90);
+    background-color: #fccbb6;
 }
 .page4{
-    background-color: rgb(196, 106, 106);
+    background-color: #FFDDCE;
 }
 .box-container{
     height: 100vh;
@@ -51,20 +51,76 @@ section {
             p{
                 font-size: max(1.2em, 1vw);
             }
+            h1{
+                font-size: max(2.5em, 1vw);
+            }
+        }
+    }
+    .page2{
+        .col-xxl-5{
+            h1{
+                font-size: max(2.5em, 1vw);
+            }
+            h3{
+                font-size: max(1.4em, 1vw);
+            }
+            p{
+                margin-top: 60px;
+            }
+            
+        }
+        line-height: 1.5em;
+    }
+    .page3{
+        .col-xxl-5{
+            p{
+                padding-top: 15px;
+                font-size: max(1.1em, 1vw);
+            };
+            
+            h1{
+                font-size: max(1.8em, 1vw);
+            }
         }
     }
     
 }
 
 @media only screen and (max-width: 425px){
-    .page1{
+    .page1, .page2{
         .col-xxl-5{
             p{
-                font-size: max(1em, 1vw);
+                font-size: max(0.9em, 1vw);
+            }
+            h1{
+                font-size: max(1.67em, 1vw);
             }
         }
     }
-    
+    .page2{
+        .col-xxl-5{
+            h1{
+                font-size: max(2em, 1vw);
+            }
+            p{
+                margin-top: 60px;
+            }
+            
+        }
+        line-height: 1.5em;
+    }
+    .page3{
+        .col-xxl-5{
+            p{
+                padding-top: 15px;
+                font-size: max(1.1em, 1vw);
+            };
+            
+            h1{
+                font-size: max(1.4em, 1vw);
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 320px){
@@ -76,10 +132,35 @@ section {
     .page1{
         .col-xxl-5{
             p{
-                font-size: max(0.8em, 1vw);
+                font-size: max(0.96em, 1vw);
             };
-            margin-top: 10vh;
+            margin-top: 8vh;
+            h1{
+                font-size: max(1.4em, 1vw);
+            }
         }
     }
-    
+    .page2{
+        .col-xxl-5{
+            p{
+                font-size: max(0.96em, 1vw);
+            };
+            margin-top: 8vh;
+            h1{
+                font-size: max(1.4em, 1vw);
+            }
+        }
+    }
+    .page3{
+        .col-xxl-5{
+            p{
+                padding-top: 15px;
+                font-size: max(1.1em, 1vw);
+            };
+            margin-top: 8vh;
+            h1{
+                font-size: max(1.4em, 1vw);
+            }
+        }
+    }
 }

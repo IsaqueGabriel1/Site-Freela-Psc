@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "GFS Didot", serif;
+  font-family: "Nunito", system-ui;
   font-weight: 400;
   font-style: normal;
   font-optical-sizing: auto;
@@ -12,7 +15,6 @@
   text-underline-offset: none;
 
 }
-
 
 body { overflow-x: hidden; }
 
@@ -30,6 +32,11 @@ body { overflow-x: hidden; }
 #textoInicial p{
   padding: 10px;
   font-size: 1.1rem;
+  font-family: "Nunito", system-ui;
+}
+
+#textoInicial h1{
+  font-family: "GFS Didot", serif;
 }
 
 #inicio{

@@ -1,15 +1,18 @@
 
 .page1{
-    background-color: #fccbb6;
+    background-color: #731425;
+    color: #f8d1cf;
 }
 .page2{
-    background-color: #FFDDCE;
+    background-color: #F0C9C9;
 }
 .page3{
-    background-color: #fccbb6;
+    background-color: #D99B96;
+    color: #29090f;
 }
 .page4{
-    background-color: #FFDDCE;
+    background-color: #F0C9C9;
+    color: #6f2723;
 }
 .page5{
     background-color: #fccbb6;
@@ -105,6 +108,11 @@ section {
             }
         }
     }
+    .page5{
+        .ultima-sessao{
+            margin-top: 100px;
+        }
+    }
 }
 
 @media only screen and (max-width: 425px){
@@ -159,6 +167,11 @@ section {
             }
         }
     }
+    .page5{
+        .ultima-sessao{
+            margin-top: 100px;
+        }
+    }
 }
 
 @media only screen and (max-width: 320px){
@@ -211,6 +224,11 @@ section {
             h1{
                 font-size: max(1.55em, 1vw);
             }
+        }
+    }
+    .page5{
+        .ultima-sessao{
+            margin-top: 100px;
         }
     }
 }

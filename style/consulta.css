@@ -1,7 +1,6 @@
 
 .page1{
-    background-color: #731425;
-    color: #f8d1cf;
+    background: #29090f;
 }
 .page2{
     background-color: #F0C9C9;
@@ -18,217 +17,45 @@
     background-color: #fccbb6;
 }
 
-.box-container{
+.page1, .page2, .page3, .page4{
     height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y:scroll ;
-}
-
-section{
-    position: sticky;
-    top: 0;
-    left: 0;
     display: flex;
-    scroll-snap-align: start;
-    justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    .col-xxl-5{
+        margin-left: 35vw;
+        background: #f0c9c9f0;
+        color: #460404;
+        font-weight: 400;
+        padding: 20px;
+        border-radius: 5px;
+        border: solid 1px black;
+        box-shadow: 5px 7px #0000006c;
+        z-index: 1;
+    }
+}
+
+#imagem-fundo-page1{
+    position: absolute;
+    left: 0;
+    background-image: url("../img/pontrona-sala-interior.jpeg");
+    background-repeat: no-repeat;
+    width: 50%;
     height: 100vh;
-    flex-direction: column;
-    text-align: left;
-    color: #490612;
+    z-index: 0;
+    background-attachment: fixed;
 }
 
-section {
-    div{
-
-        h1{
-            font-weight: 500;
-        }
-        p{
-            font-size: max(1.3em, 1vw);
-        }
-    }
+#imagem-fundo-page2{
+    position: absolute;
+    right: 0;
+    background-image: url("../img/pontronas.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    z-index: 0;
+    background-attachment: fixed;
 }
 
 
-@media only screen and (max-width: 768px){
-    section{
-        display: flex;
-        justify-content:unset;
-        
-    }
-    .page1{
-        .col-xxl-5{
-            p{
-                font-size: max(1.2em, 1vw);
-            }
-            h1{
-                font-size: max(2.5em, 1vw);
-            }
-            margin-top: 15vh;
-        }
-    }
-    .page2{
-        .col-xxl-5{
-            h1{
-                font-size: max(2.5em, 1vw);
-            }
-            h3{
-                font-size: max(1.4em, 1vw);
-            }
-            p{
-                margin-top: 40px;
-            }
-            margin-top: 26vh;
-        }
-        line-height: 1.5em;
-    }
-    .page3{
-        .col-xxl-5{
-            p{
-                padding-top: 15px;
-                font-size: max(1.2em, 1vw);
-            };
-            margin-top: 23vh;
-            h1{
-                font-size: max(2em, 1vw);
-            }
-        }
-    }
-    .page4{
-        .col-xxl-5{
-            p{
-                padding-top: 15px;
-                font-size: max(1.12em, 1vw);
-            };
-            margin-top: 8vh;
-            h1{
-                font-size: max(1.55em, 1vw);
-            }
-        }
-    }
-    .page5{
-        .ultima-sessao{
-            margin-top: 100px;
-        }
-    }
-}
-
-@media only screen and (max-width: 425px){
-    section{
-        display: flex;
-        justify-content:unset;
-        
-    }
-    .page1, .page2{
-        .col-xxl-5{
-            p{
-                font-size: max(0.9em, 1vw);
-            }
-            h1{
-                font-size: max(1.67em, 1vw);
-            }
-        }
-    }
-    .page2{
-        .col-xxl-5{
-            h1{
-                font-size: max(2em, 1vw);
-            }
-            p{
-                margin-top: 40px;
-            }
-            margin-top: 24vh;
-        }
-        line-height: 1.5em;
-    }
-    .page3{
-        .col-xxl-5{
-            p{
-                padding-top: 15px;
-                font-size: max(1em, 1vw);
-            };
-            margin-top: 10vh;
-            h1{
-                font-size: max(1.6em, 1vw);
-            }
-        }
-    }
-    .page4{
-        .col-xxl-5{
-            p{
-                padding-top: 15px;
-                font-size: max(1.12em, 1vw);
-            };
-            margin-top: 8vh;
-            h1{
-                font-size: max(1.55em, 1vw);
-            }
-        }
-    }
-    .page5{
-        .ultima-sessao{
-            margin-top: 100px;
-        }
-    }
-}
-
-@media only screen and (max-width: 320px){
-    section{
-        display: flex;
-        justify-content:unset;
-        
-    }
-    .page1{
-        .col-xxl-5{
-            p{
-                font-size: max(0.96em, 1vw);
-            };
-            margin-top: 8vh;
-            h1{
-                font-size: max(1.4em, 1vw);
-            }
-        }
-    }
-    .page2{
-        .col-xxl-5{
-            p{
-                font-size: max(0.96em, 1vw);
-            };
-          
-            h1{
-                font-size: max(1.8em, 1vw);
-            }
-        }
-    }
-    .page3{
-        .col-xxl-5{
-            p{
-                padding-top: 15px;
-                font-size: max(1.1em, 1vw);
-            };
-            
-            h1{
-                font-size: max(1.4em, 1vw);
-            }
-        }
-    }
-    .page4{
-        .col-xxl-5{
-            p{
-                padding-top: 15px;
-                font-size: max(1.12em, 1vw);
-            };
-            margin-top: 8vh;
-            h1{
-                font-size: max(1.55em, 1vw);
-            }
-        }
-    }
-    .page5{
-        .ultima-sessao{
-            margin-top: 100px;
-        }
-    }
-}

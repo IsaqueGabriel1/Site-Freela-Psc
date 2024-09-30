@@ -1,61 +1,103 @@
 
-.page1{
-    background: #29090f;
-}
-.page2{
-    background-color: #F0C9C9;
-}
-.page3{
-    background-color: #D99B96;
-    color: #29090f;
-}
-.page4{
-    background-color: #F0C9C9;
-    color: #6f2723;
-}
-.page5{
-    background-color: #fccbb6;
-}
+#containerbox,#containerbox2{
 
-.page1, .page2, .page3, .page4{
-    height: 100vh;
+    /*Containe pai*/
+    background: #731425;
+    height: 60vh;
     display: flex;
+    justify-content: center;
     align-items: center;
-    .col-xxl-5{
-        margin-left: 35vw;
-        background: #f0c9c9f0;
-        color: #460404;
-        font-weight: 400;
-        padding: 20px;
-        border-radius: 5px;
-        border: solid 1px black;
-        box-shadow: 5px 7px #0000006c;
-        z-index: 1;
+
+    /*Container filho*/
+    .box-img{
+        background-image: url("../img/pontronas.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        width: 80vw;
+        height: 60vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .box-text{
+            width: 50vw;
+            height: 30vh;
+            position: absolute;
+            background: #f0c9c9e4;
+            border-radius: 10px;
+            padding: 15px;
+            
+            color: #731425;
+        }
     }
 }
 
-#imagem-fundo-page1{
-    position: absolute;
-    left: 0;
-    background-image: url("../img/pontrona-sala-interior.jpeg");
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 100vh;
-    z-index: 0;
-    background-attachment: fixed;
+#containerbox2{
+    background: #440510;
+
+    .box-img{
+        background: #f0c9c9e4;
+    }
+
 }
 
-#imagem-fundo-page2{
-    position: absolute;
-    right: 0;
-    background-image: url("../img/pontronas.jpeg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    width: 50%;
-    height: 100vh;
-    z-index: 0;
-    background-attachment: fixed;
+@media only screen and (max-width: 768px) {
+    .box-img{
+        .box-text{
+            width: 60vw !important;
+            height: 35vh !important;
+            h1{
+                font-size: max(1.3rem, 1vw);
+            }
+            h2{
+                font-size: max(1.1rem, 1vw);
+            }
+            p{
+                font-size: max(0.7rem, 1vw);
+                
+            }
+        }
+    }
 }
 
+@media only screen and (max-width: 425px) {
+    .box-img{
+        width: 100vw !important;
+        .box-text{
+            width: 80vw !important;
+            height: 35vh !important;
+            h1{
+                font-size: max(1.1rem, 1vw);
+            }
+            h2{
+                font-size: max(0.9rem, 1vw);
+            }
+            p{
+                font-size: max(0.6rem, 1vw);
+                
+            }
+        }
+    }
+}
 
+@media only screen and (max-width: 375px) {
+    .box-img{
+        width: 100vw !important;
+        .box-text{
+            width: 80vw !important;
+            height: 35vh !important;
+            h1{
+                font-size: max(1.1rem, 1vw);
+            }
+            h1{
+                font-size: max(0.9rem, 1vw);
+            }
+            p{
+                font-size: max(0.55rem, 1vw);
+                
+            }
+        }
+    }
+}

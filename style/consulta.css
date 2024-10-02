@@ -1,5 +1,5 @@
 
-#containerbox,#containerbox2{
+#containerbox,#containerbox2,#containerbox3,#containerbox4{
 
     /*Containe pai*/
     background: #731425;
@@ -43,19 +43,108 @@
 
 }
 
+#containerbox3{
+    background: #440510;
+
+    .box-img{
+        background-image: url("../img/pontrona-sala-interior.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+#containerbox4{
+
+    .box-img{
+        background: #58071555;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .box-img{
+        .box-text{
+            width: 60vw !important;
+            height: 35vh !important;
+            h1{
+                font-size: max(1.3em, 1vw);
+            }
+            h2{
+                font-size: max(1.1em, 1vw);
+            }
+            h3{
+                font-size: max(1.1em, 1vw);
+            }
+            p{
+                font-size: max(0.8em, 1vw);
+                
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 854px) {
+    .box-img{
+        .box-text{
+            width: 60vw !important;
+            height: 35vh !important;
+            h1{
+                font-size: max(1.3em, 1vw);
+            }
+            h2{
+                font-size: max(1.1rem, 1vw);
+            }
+            h3{
+                font-size: max(1.1em, 1vw);
+            }
+            p{
+                font-size: max(0.76rem, 1.3vw);
+                
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .box-img{
         .box-text{
             width: 60vw !important;
             height: 35vh !important;
             h1{
-                font-size: max(1.3rem, 1vw);
+                font-size: max(1.3em, 1vw);
             }
             h2{
                 font-size: max(1.1rem, 1vw);
             }
+            h3{
+                font-size: max(1.1em, 1vw);
+            }
             p{
-                font-size: max(0.7rem, 1vw);
+                font-size: max(0.6rem, 1.6vw);
+                
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 648px) {
+    .box-img{
+        .box-text{
+            width: 60vw !important;
+            height: 35vh !important;
+            h1{
+                font-size: max(1.1em, 1.6vw);
+            }
+            h2{
+                font-size: max(0.8rem, 1.6vw);
+            }
+            h3{
+                font-size: max(1.1em, 1vw);
+            }
+            p{
+                font-size: max(0.56rem, 1.6vw);
                 
             }
         }
@@ -64,18 +153,20 @@
 
 @media only screen and (max-width: 425px) {
     .box-img{
-        width: 100vw !important;
         .box-text{
-            width: 80vw !important;
+            width: 65vw !important;
             height: 35vh !important;
             h1{
-                font-size: max(1.1rem, 1vw);
+                font-size: max(1.1em, 1.6vw);
             }
             h2{
-                font-size: max(0.9rem, 1vw);
+                font-size: max(0.8rem, 1.6vw);
+            }
+            h3{
+                font-size: max(1.1em, 1vw);
             }
             p{
-                font-size: max(0.6rem, 1vw);
+                font-size: max(0.52rem, 1.2vw);
                 
             }
         }
@@ -86,16 +177,42 @@
     .box-img{
         width: 100vw !important;
         .box-text{
-            width: 80vw !important;
+            width: 85vw !important;
             height: 35vh !important;
             h1{
-                font-size: max(1.1rem, 1vw);
+                font-size: max(1.1em, 1.6vw);
             }
-            h1{
-                font-size: max(0.9rem, 1vw);
+            h2{
+                font-size: max(0.8rem, 1.6vw);
+            }
+            h3{
+                font-size: max(0.54rem, 1.2vw);
             }
             p{
-                font-size: max(0.55rem, 1vw);
+                font-size: max(0.54rem, 1.2vw);
+                
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .box-img{
+        width: 100vw !important;
+        .box-text{
+            width: 95vw !important;
+            height: 35vh !important;
+            h1{
+                font-size: max(1.1em, 1.6vw);
+            }
+            h2{
+                font-size: max(0.8rem, 1.6vw);
+            }
+            h3{
+                font-size: max(1.1rem, 1vw);
+            }
+            p{
+                font-size: max(0.54rem, 1.2vw);
                 
             }
         }

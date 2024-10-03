@@ -66,41 +66,44 @@
     }
 }
 
-
-#footer{
-    background: #f0c9c9e4;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    h1{
-        color: #731425;
-    }
-
-    p{
-        color: #731425;
-        font-weight: 600;
-    }
-
-    svg{
-        margin: 10px;
-        color: #731425;
-    }
-
-    span{
-        color: #731425;
-        font-weight: 600;
-    }
+.ultima-sessao{
+    #footer{
+        background: #f0c9c9e4;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     
-    #feitoPor a{
-        font-size: 10px;
-        color: #731425;
-        text-decoration: none;
+        h1{
+            color: #731425;
+        }
+    
+        p{
+            color: #731425;
+            font-weight: 600;
+        }
+    
+        svg{
+            margin: 10px;
+            color: #731425;
+        }
+    
+        span{
+            color: #731425;
+            font-weight: 600;
+        }
+        
+        #feitoPor a{
+            font-size: 10px;
+            color: #731425;
+            text-decoration: none;
+        }
     }
 }
+
+
 
 @media only screen and (min-width: 1024px) {
     .box-img{

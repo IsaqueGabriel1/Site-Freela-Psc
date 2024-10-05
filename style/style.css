@@ -353,6 +353,54 @@ svg:hover{
   padding: 0;
 }
 
+#btnPrimeirosContatos{
+  text-decoration: none;
+  color: white;
+  width: 20vw;
+  text-align: center;
+  padding: 10px;
+  background: #731425;
+  border-radius: 10px;
+}
+
+
+.primeirosContatos{
+  background: #D99B96;
+  color: #731425;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2{
+    font-weight: 600;
+  }
+
+  a{
+    margin: 20px;
+    cursor: pointer;
+    
+    transition: 1s;
+    animation: btn 5s infinite;
+  }
+  
+}
+
+@keyframes btn{
+  0%{
+    color: white;
+    background: #731425;
+  }
+  50%{
+    color: #731425;
+    background: #ffffff;
+  }
+  100%{
+    color: white;
+    background: #731425;
+  }
+}
+
 @keyframes appear{
   from{
     opacity: 0;

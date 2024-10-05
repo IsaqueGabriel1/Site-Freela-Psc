@@ -297,8 +297,11 @@
           
         }
         p{
-          font-size: 1px;
+          font-size: 0.8px;
         }
+      }
+      .cor3s{
+        padding-top:0px;
       }
     }
     
@@ -412,8 +415,6 @@
     #cards{
       margin-top: 5px;
     }
-  
-  
 
   
     #quartaSessao{

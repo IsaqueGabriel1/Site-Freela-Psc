@@ -23,9 +23,15 @@ body { overflow-x: hidden;}
   height: 75vh !important;
 }
 
+.linha-textoInicial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh !important;
+}
+
 #textoInicial{
   padding: 20px;
-  margin-top: 15%;
   z-index: 2;
 }
 

@@ -402,6 +402,20 @@
    .cor3s{
     padding-top:0px;
     }
+
+    .primeirosContatos{ 
+      padding: 30px;
+      height: 30vh;
+
+      h2{
+        font-size: 1rem;
+      }
+
+      #btnPrimeirosContatos{
+        width: 70vw;
+        font-size: 0.8rem;
+      }
+    }
   }
 
   
@@ -550,6 +564,20 @@
         font-size: max(0.64rem, 1vw);
       }
     }
+
+    .primeirosContatos{ 
+      padding: 30px;
+      height: 35vh;
+
+      h2{
+        font-size: 1rem;
+      }
+
+      #btnPrimeirosContatos{
+        width: 70vw;
+        font-size: 0.8rem;
+      }
+    }
   }
   
   @media only screen and (max-width: 260px) {
@@ -608,8 +636,8 @@
 
 
     .primeirosContatos{ 
-      padding: 20px;
-      height: 30vh;
+      padding: 30px;
+      height: 35vh;
 
       h2{
         font-size: 1rem;
@@ -662,7 +690,20 @@
       li{
         font-size: max(0.7rem, 1vw);
       }
-      
+    }
+
+    .primeirosContatos{ 
+      padding: 30px;
+      height: 35vh;
+
+      h2{
+        font-size: 1rem;
+      }
+
+      #btnPrimeirosContatos{
+        width: 70vw;
+        font-size: 0.8rem;
+      }
     }
   }
   

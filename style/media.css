@@ -10,9 +10,6 @@
     #box img{
       width: 30%;
     }
-    #textoInicial{
-      margin-top: 20%;
-    }
 
     #terceiraSessao{
       padding-top: 80px;
@@ -49,9 +46,7 @@
       width: 30%;
     }
  
-    #textoInicial{
-      margin-top: 25%;
-    }
+
     #box{
       height: 35vh !important;
     }
@@ -204,9 +199,7 @@
       margin-bottom: 10px;
     }
    
-    #textoInicial{
-      margin-top: 10%;
-    }
+ 
     #box{
       height: 35vh !important;
     }
@@ -232,9 +225,7 @@
       height: 350px;
     }
    
-    #textoInicial{
-      margin-top: 10%;
-    }
+
     .cards{
       height: 330px;
       margin-bottom: 10px;
@@ -252,15 +243,11 @@
       padding-top: 20px;
     }
   }
-  
+
   @media only screen and (max-width: 425px) {
     #textoInicial p{
       padding: 7px;
      
-    }
-    
-    #textoInicial{
-      margin-top: 15%;
     }
     
     #box{
@@ -301,6 +288,23 @@
       }
     }
   }
+
+  @media only screen and (max-width: 412px) {
+    #terceiraSessao{
+      #cards{
+        h3{
+          font-size: max(1.2rem, 0.2vw);
+          
+        }
+        p{
+          font-size: 1px;
+        }
+      }
+    }
+    
+  }
+
+
   
   @media only screen and (max-width: 375px) {
     #textoInicial p{
@@ -315,9 +319,7 @@
       margin-bottom: 10px;
     }
    
-    #textoInicial{
-      margin-top: 25%;
-    }
+ 
     #box{
       height: 44vh !important;
     }
@@ -346,6 +348,36 @@
      
     }
   }
+
+
+  @media only screen and (max-width: 384px) {
+    #textoInicial p{
+      padding: 4px;
+      font-size: 0.9rem;
+    }
+    
+    #cards{
+      margin-top: 0px;
+    }
+    .linha-textoInicial{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #ultima-sessao{
+      height: 30vh;
+    }
+    #ultima-sessao h4{
+     
+      padding: 0vh;
+    }
+  
+   .cor3s{
+    padding-top:0px;
+    }
+  }
+
   
   @media only screen and (max-width: 350px) {
     #textoInicial p{
@@ -356,9 +388,7 @@
     #cards{
       margin-top: 5px;
     }
-    #textoInicial{
-      margin-top: 20%;
-    }
+
     #ultima-sessao{
       height: 30vh;
     }
@@ -375,6 +405,7 @@
   @media only screen and (max-width: 320px) {
     #textoInicial p{
       padding: 4px;
+      font-size: 0.75rem;
       
     }
    
@@ -383,9 +414,7 @@
     }
   
   
-    #textoInicial{
-      margin-top: 20%;
-    }
+
   
     #quartaSessao{
       padding: 15px;
@@ -438,9 +467,7 @@
       }
     }
   
-    #textoInicial{
-      margin-top: 20%;
-    }
+
   
     #cards{
       margin-top: 5px;
@@ -501,9 +528,7 @@
       }
     }
    
-    #textoInicial{
-      margin-top: 40%;
-    }
+
   
     #cards{
       margin-top: 5px;
@@ -558,9 +583,7 @@
         font-size: max(0.7rem, 1vw);
       }
     }
-    #textoInicial{
-      margin-top: 40%;
-    }
+
   
     #cards{
       margin-top: 5px;
@@ -597,10 +620,6 @@
       
     }
    
-    #textoInicial{
-      margin-top: 40%;
-    }
-  
     #cards{
       margin-top: 5px;
     }

@@ -233,7 +233,7 @@
             width: 95vw !important;
             height: 40vh !important;
             h1{
-                font-size: max(1.1em, 1.6vw);
+                font-size: max(0rem, 0.2px);
             }
             h2{
                 font-size: max(0.8rem, 1.6vw);

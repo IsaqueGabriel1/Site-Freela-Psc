@@ -337,6 +337,10 @@ svg:hover{
       color: #731425;
       text-decoration: none;
   }
+
+  a{
+    text-decoration: none;
+  }
 }
 
 #row-footer{

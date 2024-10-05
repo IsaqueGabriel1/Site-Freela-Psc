@@ -251,6 +251,9 @@
             }
         }
     }
+    #footer{
+        height: 55vh;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -275,6 +278,9 @@
                 }
             }
         }
+    }
+    #footer{
+        height: 55vh;
     }
 }
 
@@ -338,6 +344,9 @@
                 }
             }
         }
+    }
+    #footer{
+        height: 50vh;
     }
 }
 

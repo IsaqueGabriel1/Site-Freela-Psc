@@ -480,15 +480,19 @@
       }
       
     }
-    #cards{
-      h3{
-        font-size: max(1.2rem, 0.2vw);
-        
-      }
-      p{
-        font-size: max(0.75rem, 1vw);
+
+    #terceiraSessao{
+      #cards{
+        h3{
+          font-size: max(1.2rem, 0.2vw);
+          
+        }
+        p{
+          font-size: 0.7rem;
+        }
       }
     }
+    
 
     .primeirosContatos{ 
       padding: 20px;

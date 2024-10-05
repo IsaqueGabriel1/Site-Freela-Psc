@@ -86,8 +86,14 @@
     #textoTerapiaCasal{
       height: 65vh;
     }
+    .primeirosContatos{ 
+      padding: 20px;
 
-
+      #btnPrimeirosContatos{
+        width: 40vw;
+      }
+    }
+    
 
     /*Responsividade das fontes, cuidado!*/
     #textoInicial{
@@ -242,6 +248,14 @@
     .cor3s{
       padding-top: 20px;
     }
+
+    .primeirosContatos{ 
+      padding: 20px;
+
+      #btnPrimeirosContatos{
+        width: 50vw;
+      }
+    }
   }
 
   @media only screen and (max-width: 425px) {
@@ -350,6 +364,15 @@
       };
      
     }
+
+    .primeirosContatos{ 
+      padding: 20px;
+      height: 30vh;
+
+      #btnPrimeirosContatos{
+        width: 60vw;
+      }
+    }
   }
 
 
@@ -450,6 +473,20 @@
       }
       p{
         font-size: max(0.75rem, 1vw);
+      }
+    }
+
+    .primeirosContatos{ 
+      padding: 20px;
+      height: 30vh;
+
+      h2{
+        font-size: 1rem;
+      }
+
+      #btnPrimeirosContatos{
+        width: 60vw;
+        font-size: 0.8rem;
       }
     }
   }
@@ -567,7 +604,21 @@
       li{
         font-size: max(0.7rem, 1vw);
       }
-      
+    }
+
+
+    .primeirosContatos{ 
+      padding: 20px;
+      height: 30vh;
+
+      h2{
+        font-size: 1rem;
+      }
+
+      #btnPrimeirosContatos{
+        width: 70vw;
+        font-size: 0.8rem;
+      }
     }
   }
   
